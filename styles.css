@@ -1,0 +1,161 @@
+body {
+    background-color: #2f3540;
+}
+
+
+nav.top-nav {
+    position: fixed;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    background-color: #41526b;
+        box-shadow: 0px 4px 4px #0003;
+    z-index: 99;
+}
+
+nav.top-nav ul {
+    list-style: none;
+    display: inline-flex;
+    
+}
+
+nav.top-nav li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em;
+    color: #fffd;
+    user-select: none;
+    position: relative;
+}
+
+#name {
+    font-size: 2.4em;
+    font-style: italic;
+    font-weight: 100;
+
+}
+
+.links {
+    display: inline-flex;
+    position: absolute;
+    right: 2em;
+    margin-top: 1.2em;
+    
+}
+
+.links li {
+    font-weight: 100;
+    width: 5.5em;
+}
+
+.links li:hover{
+    font-weight: 600;
+}
+
+#sub {
+    font-size: 1.2em;
+    padding-top: 0;
+}
+
+#active {
+    font-weight: 600;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.games {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.games img {
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 10px;
+    transition: .3s ease;
+}
+
+
+.middle {
+    display: block;
+    transition: .3s ease;
+    opacity: 0;
+    text-align: center;
+    transform: translate(0%, -14em);
+
+}
+
+.text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4em;
+    color: #fffd;
+    font-style: italic;
+}
+
+.container {
+    height: 410px;
+    margin: 0;
+    
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.container:hover img {
+    filter: brightness(45%);
+    transition: .3s ease;
+}
+
+#firstTitle {
+    margin-top: 3.4em;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #fffd;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-size: 2.3em;
+    font-weight: 100;
+}
+
+.renders {
+    text-align: center;
+}
+
+.renders img {
+    
+    object-fit: cover;
+    margin: 5px;
+    width: 650px;
+    height: 400px;
+    
+}
+
+.about {
+    display: inline-flex;
+    margin: 5em;
+    margin-top: 2em;
+}
+
+.about img {
+    width: 600px;
+}
+
+p {
+    margin-left: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    color: #fffd;
+    margin-top: 3em;
+    text-align:justify;
+    text-justify: inter-word;
+}
